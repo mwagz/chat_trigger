@@ -1,0 +1,30 @@
+{
+    "triggerVideo": {
+      "type": "video-input",
+      "label": "Video for Playback",
+      "group": "Trigger Command Settings"
+    },
+    "triggerCommand": {
+      "type": "text",
+      "label": "Command to trigger playback",
+      "value": "trigger",
+      "group": "Trigger Command Settings"
+    },
+    "triggerCooldown": {
+      "type": "number",
+      "label": "Cooldown for command use (seconds)",
+      "value": 30,
+      "group": "Trigger Command Settings"
+    },
+   
+    "widgetName": {
+      "type": "hidden",
+      "value": "Triggered Playback",
+      "group": "Trigger Command Settings"
+    },
+    "widgetAuthor": {
+      "type": "hidden",
+      "value": "XtasyArmada",
+      "group": "Trigger Command Settings"
+    }
+  }
